@@ -476,6 +476,15 @@ $pattern-background-size: 25em;
 			&:hover {
 				top: -0.2em;
 			}
+			
+			&.fa-linkedin {
+				background: _palette(linkedin, bg);
+				color: _palette(linkedin, fg);
+				
+				&:hover{
+					background: lighten(_palette(linkedin, bg),4);
+				}
+			}
 
 			&.fa-twitter {
 				background: _palette(twitter, bg);
@@ -486,16 +495,7 @@ $pattern-background-size: 25em;
 				}
 			}
 
-			&.fa-facebook-f {
-				background: _palette(facebook, bg);
-				color: _palette(facebook, fg);
-
-				&:hover {
-					background: lighten(_palette(facebook, bg), 4);
-				}
-			}
-
-			&.fa-google-plus-g {
+			&.fa-gmail {
 				background: _palette(google-plus, bg);
 				color: _palette(google-plus, fg);
 
@@ -510,15 +510,6 @@ $pattern-background-size: 25em;
 
 				&:hover {
 					background: lighten(_palette(github, bg), 4);
-				}
-			}
-
-			&.fa-dribbble {
-				background: _palette(dribbble, bg);
-				color: _palette(dribbble, fg);
-
-				&:hover {
-					background: lighten(_palette(dribbble, bg), 4);
 				}
 			}
 		}
